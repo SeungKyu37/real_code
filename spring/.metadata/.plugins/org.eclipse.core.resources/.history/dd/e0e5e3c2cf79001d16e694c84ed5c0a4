@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border=1 id=tblList>
+<tr><th>객실명</th><th>객실타입</th><th>숙박가능인원</th><th>1박요금</th></tr>
+<c:forEach var="roominfo" items="${ri}">
+	<tr><td>${roominfo.name}</td><td>${roominfo.type}</td><td>${roominfo.howmany}</td><td>${roominfo.howmuch}</td></tr>
+</c:forEach>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+package com.human.springboot;
+
+public class Update {
+	private int post_id;
+	private String title;
+	private String content;
+}

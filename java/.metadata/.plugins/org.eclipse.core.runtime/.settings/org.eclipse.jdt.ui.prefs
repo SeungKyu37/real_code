@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.time.temporal.TemporalUnit"><rhs name\="java.time.temporal.ChronoUnit"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.DayOfWeek"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.DayOfWeek"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.time.DayOfWeek"/><rhs name\="javafx.stage.StageStyle"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.time.DayOfWeek"/><rhs name\="javafx.stage.StageStyle"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="methodbody_context" deleted\="false" description\="Code in created method stubs" enabled\="true" id\="org.eclipse.jdt.ui.text.codetemplates.methodbody" name\="methodbody">${body_statement}</template></templates>
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,9 @@
+package com.human.springboot;
+
+public class Member {
+	private String loginid;
+	private String passcode;
+	private String name;
+	private String mobile;
+	
+}

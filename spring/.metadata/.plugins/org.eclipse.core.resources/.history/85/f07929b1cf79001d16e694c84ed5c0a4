@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border=1 id=tblList>
+<tr><th>객실명</th><th>객실타입</th><th>숙박가능인원</th><th>1박요금</th></tr>
+<c:forEach var="roominfo" items="${ri}">
+	<tr><td>${roominfo.name}</td><td>${roominfo.type}</td><td>${roominfo.howmany}</td><td>${roominfo.howmuch}</td></tr>
+</c:forEach>
+</table>
+<br>
+<form action="/controlRoomType" id=frmControl>
+<input type=text id=optype name=optype value='insert'>
+<table border=1>
+	<tr><td>Type Number</td><td><input type=text name=typenum id=typenum readonly></td></tr>
+	<tr><td>Type Name</td><td><input type=text name=typename id=typename></td></tr>
+	<tr><td colspan=2 align=center>
+		<input type=button value='등록' id=btnAddNew>
+		<input type=button value='삭제' id=btnDelete>
+		<input type=button value='비우기' id=btnReset>
+		</td></tr>
+</table>
+</form>
+</body>
+</html>

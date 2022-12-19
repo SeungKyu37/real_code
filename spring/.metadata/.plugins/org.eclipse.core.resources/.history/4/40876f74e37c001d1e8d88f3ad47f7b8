@@ -1,0 +1,9 @@
+package com.human.springboot;
+
+public class View {
+	private String title;
+	private String content;
+	private String writer;
+	private String created;
+	private String updated;
+}
